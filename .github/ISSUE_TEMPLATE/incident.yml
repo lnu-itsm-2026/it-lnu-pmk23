@@ -1,0 +1,105 @@
+name: Інцидент
+description: Сервіс не працює або працює гірше, ніж має
+title: "[INC] "
+labels: ["type:incident", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Опишіть **симптом**, а не свою гіпотезу. «Не працює пошта» — не опис.
+        «З 09:12 користувачі отримують SMTP 421, скарг близько 40» — опис.
+
+  - type: dropdown
+    id: service
+    attributes:
+      label: Сервіс
+      options:
+        - "01 — Пошта і файли"
+        - "02 — Мережа (VPN, Wi-Fi)"
+        - "03 — Навчання (Moodle, Service Desk, відео)"
+        - "04 — Ідентичність (сайт, SSO/LDAP)"
+        - "05 — Платформа (БД, Backup, Monitoring)"
+    validations:
+      required: true
+
+  - type: input
+    id: started
+    attributes:
+      label: Коли почалося
+      description: Дата й час першого прояву, а не час, коли ви побачили тікет
+      placeholder: "2026-09-16, 09:12"
+    validations:
+      required: true
+
+  - type: textarea
+    id: symptom
+    attributes:
+      label: Що спостерігається
+      description: Факти. Повідомлення про помилку, коди, метрики, скріншот.
+    validations:
+      required: true
+
+  - type: textarea
+    id: impact
+    attributes:
+      label: Кого і скільки зачепило
+      description: Масовий / груповий / одиничний вплив. Скільки людей, які групи.
+    validations:
+      required: true
+
+  - type: dropdown
+    id: workaround
+    attributes:
+      label: Чи є обхідний шлях
+      options:
+        - "Немає — роботу продовжити неможливо"
+        - "Є, але незручний"
+        - "Роботі не перешкоджає"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Пріоритет
+      description: Ставиться за матрицею у docs/slo.md. Обґрунтування — нижче.
+      options: ["P1", "P2", "P3", "P4"]
+    validations:
+      required: true
+
+  - type: input
+    id: priority_reason
+    attributes:
+      label: Чому саме такий пріоритет
+      placeholder: "Масовий вплив + немає обхідного шляху → P1"
+    validations:
+      required: true
+
+  - type: textarea
+    id: diagnosis
+    attributes:
+      label: Кроки діагностики
+      description: Що перевірили і що з цього вийшло. Заповнюється в процесі.
+
+  - type: textarea
+    id: user_comm
+    attributes:
+      label: Що повідомлено користувачу
+      description: Текст повідомлення й час. Без цього тікет не закривається.
+
+  - type: textarea
+    id: resolution
+    attributes:
+      label: Як відновили роботу
+      description: Заповнюється при закритті.
+
+  - type: checkboxes
+    id: closing
+    attributes:
+      label: Чеклист закриття
+      options:
+        - label: Роботу сервісу відновлено й перевірено
+        - label: Користувача повідомлено
+        - label: Якщо причина не в нашому сервісі — створено ескалацію, а не закрито тікет
+        - label: Якщо це трапляється не вперше — створено або доповнено Problem
+        - label: Якщо навчилися чомусь новому — оновлено runbook

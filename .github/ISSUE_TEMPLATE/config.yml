@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Як ставити пріоритет
+    url: ../../blob/main/docs/slo.md
+    about: Матриця P1–P4 і зобов'язання щодо часу реакції
+  - name: Кому ескалювати
+    url: ../../blob/main/docs/escalation.md
+    about: Граф залежностей сервісів і правила ескалації

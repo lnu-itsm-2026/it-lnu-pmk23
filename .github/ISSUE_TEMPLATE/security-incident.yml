@@ -1,0 +1,90 @@
+name: Безпековий інцидент
+description: Компрометація, витік, підозріла активність, знайдена уразливість
+title: "[SEC] "
+labels: ["type:security", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Три правила, які не порушуються:**
+        1. Спершу докази, потім відновлення. Перезавантаження знищує сліди.
+        2. S1 і S2 — негайно повідомити Service Owner і викладача. Не розслідувати в одиночку.
+        3. Не повідомляти користувачів про витік їхніх даних самостійно — це рішення керівництва.
+
+  - type: dropdown
+    id: service
+    attributes:
+      label: Сервіс
+      options:
+        - "01 — Пошта і файли"
+        - "02 — Мережа (VPN, Wi-Fi)"
+        - "03 — Навчання (Moodle, Service Desk, відео)"
+        - "04 — Ідентичність (сайт, SSO/LDAP)"
+        - "05 — Платформа (БД, Backup, Monitoring)"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: severity
+    attributes:
+      label: Рівень
+      description: Шкала у docs/slo.md
+      options:
+        - "S1 — активна компрометація або витік персональних даних"
+        - "S2 — підозра на компрометацію, скомпрометований акаунт, успішний фішинг"
+        - "S3 — спроба без успіху, знайдена уразливість, порушення політики"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: Що виявлено
+      description: Факти й час. Що саме побачили і де.
+    validations:
+      required: true
+
+  - type: textarea
+    id: vector
+    attributes:
+      label: Ймовірний вектор
+      description: Як це могло стати можливим. Гіпотеза — позначте як гіпотезу.
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Які докази збережено
+      description: Логи, знімки, дампи, час. Де вони лежать. Це робиться ДО відновлення.
+    validations:
+      required: true
+
+  - type: textarea
+    id: containment
+    attributes:
+      label: Що зроблено для зупинки поширення
+      description: Ізоляція, блокування акаунта, відключення сегмента. Час кожної дії.
+
+  - type: textarea
+    id: data
+    attributes:
+      label: Чи торкнулося персональних даних
+      description: Які дані, скількох людей, чи є підтвердження вилучення. Якщо невідомо — так і напишіть.
+    validations:
+      required: true
+
+  - type: textarea
+    id: notified
+    attributes:
+      label: Кого повідомлено і коли
+      description: Service Owner, керівництво, суміжні команди.
+
+  - type: checkboxes
+    id: closing
+    attributes:
+      label: Чеклист закриття
+      options:
+        - label: Докази збережено до початку відновлення
+        - label: Поширення зупинено
+        - label: Оцінено масштаб — скільки акаунтів, систем, даних
+        - label: Створено RFC на зміну, яка закриває причину
+        - label: Написано постмортем (для S1 і S2 — обов'язково)

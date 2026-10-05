@@ -1,0 +1,70 @@
+name: Проблема
+description: Причина, що породжує повторювані інциденти
+title: "[PRB] "
+labels: ["type:problem", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Інцидент — окремий випадок. Проблема — **причина**, яка їх породжує.
+        «У користувача не працює пошта» — інцидент.
+        «Поштовий сервер перевантажується щопонеділка о 9:00» — проблема.
+
+  - type: dropdown
+    id: service
+    attributes:
+      label: Сервіс
+      options:
+        - "01 — Пошта і файли"
+        - "02 — Мережа (VPN, Wi-Fi)"
+        - "03 — Навчання (Moodle, Service Desk, відео)"
+        - "04 — Ідентичність (сайт, SSO/LDAP)"
+        - "05 — Платформа (БД, Backup, Monitoring)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: statement
+    attributes:
+      label: Формулювання проблеми
+      description: Що саме повторюється, за яких умов, як часто
+    validations:
+      required: true
+
+  - type: textarea
+    id: incidents
+    attributes:
+      label: Пов'язані інциденти
+      description: Посилання на тікети — #12, #17, #23. Мінімум два, інакше це ще не проблема.
+    validations:
+      required: true
+
+  - type: textarea
+    id: rca
+    attributes:
+      label: Аналіз першопричини
+      description: |
+        Ланцюжок 5 Whys. Кожне «чому» має спиратися на факт, а не на здогад.
+        Зупиняйтеся, коли дійшли до причини, на яку можна вплинути.
+      placeholder: |
+        1. Чому пошта недоступна? — Черга SMTP переповнена.
+        2. Чому переповнена? — Одночасно надходить ~40 тис. листів.
+        3. Чому одночасно? — Розсилка розкладу стартує о 9:00 у понеділок.
+        4. Чому це ламає сервіс? — Немає обмеження швидкості розсилки.
+        5. Чому немає? — Розсилку робили як разовий скрипт і залишили в проді.
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Обхідний шлях
+      description: Що робити прямо зараз, поки причина не усунена. Це те, що піде в runbook.
+    validations:
+      required: true
+
+  - type: textarea
+    id: fix
+    attributes:
+      label: Постійне рішення
+      description: Що усуває причину. Якщо це зміна — посилання на RFC.

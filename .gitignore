@@ -1,0 +1,10 @@
+# Ніщо з інструментів викладача не має потрапити в публічний репозиторій.
+setup/
+teacher-tools/
+events/
+KEY-*.md
+*.key
+
+.DS_Store
+__pycache__/
+*.pyc

@@ -1,0 +1,56 @@
+name: Запит на обслуговування
+description: Користувачу щось потрібно, і сервіс при цьому працює нормально
+title: "[REQ] "
+labels: ["type:request", "status:triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Запит — це не інцидент. Нічого не зламано; людині потрібен доступ,
+        ресурс або дія. Плутати їх — типова помилка на першій роботі:
+        запити починають лікувати як аварії, а аварії тонуть у черзі запитів.
+
+  - type: dropdown
+    id: service
+    attributes:
+      label: Сервіс
+      options:
+        - "01 — Пошта і файли"
+        - "02 — Мережа (VPN, Wi-Fi)"
+        - "03 — Навчання (Moodle, Service Desk, відео)"
+        - "04 — Ідентичність (сайт, SSO/LDAP)"
+        - "05 — Платформа (БД, Backup, Monitoring)"
+    validations:
+      required: true
+
+  - type: textarea
+    id: what
+    attributes:
+      label: Чого потрібно
+    validations:
+      required: true
+
+  - type: input
+    id: who
+    attributes:
+      label: Для кого
+      description: Роль і група, без імен. Наприклад «викладачі кафедри кібербезпеки, 12 людей»
+    validations:
+      required: true
+
+  - type: dropdown
+    id: standard
+    attributes:
+      label: Це стандартний запит?
+      description: Стандартний — повторюваний, з низьким ризиком, виконується за готовою процедурою без окремого погодження
+      options:
+        - "Так — є процедура в runbooks/"
+        - "Ні — потрібне погодження або нова процедура"
+    validations:
+      required: true
+
+  - type: textarea
+    id: access
+    attributes:
+      label: Якщо це доступ — які права і на який строк
+      description: Хто підтверджує право на доступ. Безстрокові права — це ризик, а не зручність.

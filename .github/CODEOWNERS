@@ -1,0 +1,15 @@
+# CODEOWNERS — тут живе CAB.
+#
+# Зміна, що торкається чужого сервісу, не змерджиться без рев'ю його власника.
+# Замініть <ГРУПА> на слаг групи (наприклад pmk21) після створення GitHub-команд.
+
+/services/01-email-files/   @lnu-itsm-2026/<ГРУПА>-email
+/services/02-network/       @lnu-itsm-2026/<ГРУПА>-network
+/services/03-learning/      @lnu-itsm-2026/<ГРУПА>-learning
+/services/04-identity/      @lnu-itsm-2026/<ГРУПА>-identity
+/services/05-platform/      @lnu-itsm-2026/<ГРУПА>-platform
+
+# Спільні документи змінюються тільки за згодою всієї служби.
+/docs/slo.md                @lnu-itsm-2026/<ГРУПА>-all
+/docs/escalation.md         @lnu-itsm-2026/<ГРУПА>-all
+/README.md                  @lnu-itsm-2026/<ГРУПА>-all
