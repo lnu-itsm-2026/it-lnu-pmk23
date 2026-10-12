@@ -7,7 +7,7 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
-| 1 | | | | |
+| 1 | 15FoxyPirate15 | Markisha1337 | 15FoxyPirate15 | immortalityss |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -20,4 +20,6 @@
 
 | GitHub-нік | Ім'я |
 |---|---|
-| | |
+| 15FoxyPirate15 | Богдан |
+| Markisha1337 | Маркіян |
+| immortalityss | Станіслав |
