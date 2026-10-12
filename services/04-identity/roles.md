@@ -7,7 +7,7 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
-| 1 | | | | |
+| 1 |orest3642|Nazark1|minagrm|rspdr66|
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -20,4 +20,7 @@
 
 | GitHub-нік | Ім'я |
 |---|---|
-| | |
+| rsdpr66 | Артур |
+| orest3642 | Орест |
+| Nazark1 | Назар |
+| minagrm | Максим |
