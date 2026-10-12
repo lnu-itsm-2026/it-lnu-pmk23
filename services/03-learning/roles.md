@@ -5,9 +5,9 @@
 
 Якщо в команді троє — хтось тримає дві ролі, і подвоєння теж ротується.
 
-| Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
+| Блок | Service Owner | Incident Manager|Communications | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
-| 1 | | | stacy007009| |
+| 1 | lokidl| |BOOMchik7 |stacy007009| |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -15,9 +15,11 @@
 | 6 | | | | |
 | 7 | | | | |
 | 8 | | | | |
-
 ## Склад команди
 
 | GitHub-нік | Ім'я |
 |---|---|
-| stacy007009| Радевич Анастасія|
+|stacy007009 |Радевич Анастасія |
+|BOOMchik7 |Пащак Станіслав |
+|lokidl |Обрізків Яна |
+
