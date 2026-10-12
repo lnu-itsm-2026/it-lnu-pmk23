@@ -7,7 +7,7 @@
 
 | Блок | Service Owner | Incident Manager|Communications | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
-| 1 | | |BOOMchik7 | |
+| 1 | lokidl| |BOOMchik7 | |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -20,4 +20,5 @@
 | GitHub-нік | Ім'я |
 |---|---|
 |BOOMchik7 |Пащак Станіслав |
+|lokidl |Яна|
 
