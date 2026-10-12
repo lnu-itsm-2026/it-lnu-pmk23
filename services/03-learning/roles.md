@@ -7,7 +7,7 @@
 
 | Блок | Service Owner | Incident Manager|Communications | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
-| 1 | lokidl| |BOOMchik7 |stacy007009| |
+| 1 | lokidl| |BOOMchik7 |stacy007009| iryna-rvv|
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -22,4 +22,4 @@
 |stacy007009 |Радевич Анастасія |
 |BOOMchik7 |Пащак Станіслав |
 |lokidl |Обрізків Яна |
-
+|iryna-rvv | Росоха Ірина|
