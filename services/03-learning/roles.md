@@ -7,7 +7,7 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
-| 1 | | | | |
+| 1 |lokidl | | | |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -20,4 +20,5 @@
 
 | GitHub-нік | Ім'я |
 |---|---|
-| | |
+|lokidl |Яна|
+
