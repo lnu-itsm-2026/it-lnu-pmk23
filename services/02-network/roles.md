@@ -7,7 +7,7 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
-| 1 | yanderkachan9-bot | andr1qn | MaksymGD | andriiko111 |
+| 1 | yanderkachan9-bot | andr1qn, Maksym-coder | MaksymGD | andriiko111 |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -23,3 +23,4 @@
 | andr1qn | Андріан |
 | yanderkachan9-bot | Богдан Евеліна |
 | MaksymGD | Максим |
+| Maksym-coder | Максим |
