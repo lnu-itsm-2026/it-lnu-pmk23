@@ -7,7 +7,7 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
-| 1 | yanderkachan9-bot | andr1qn | MaksymGD | |
+| 1 | yanderkachan9-bot | andr1qn | MaksymGD | andriiko111 |
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
@@ -19,7 +19,7 @@
 ## Склад команди
 
 | GitHub-нік | Ім'я |
-|---|---|
+| andriiko111 | Андрій |
 | andr1qn | Андріан |
 | yanderkachan9-bot | Богдан Евеліна |
 | MaksymGD | Максим |
