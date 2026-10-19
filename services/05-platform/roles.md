@@ -13,7 +13,7 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge | Communications |
 |---|---|---|---|---|---|
-| 1 | | | | | |
+| 1 | | ol3g4s| | | |
 | 2 | | | | | |
 | 3 | | | | | |
 | 4 | | | | | |
@@ -29,3 +29,4 @@
 | GitHub-нік | Ім'я | Роль зараз |
 |---|---|---|
 | _(приклад)_ @ivan-petriv | Іван Петрів | Incident Manager |
+|ol3g4s|Олег Пилипчак|Incident Manager|
