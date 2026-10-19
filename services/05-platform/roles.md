@@ -13,7 +13,7 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge | Communications |
 |---|---|---|---|---|---|
-| 1 | | | @xxhe3ripped | | @xxhe3ripped |
+| 1 | | | | | |
 | 2 | | | | | |
 | 3 | | | | | |
 | 4 | | | | | |
@@ -28,4 +28,4 @@
 
 | GitHub-нік | Ім'я | Роль зараз |
 |---|---|---|
-| @xxhe3ripped | Блищик Катерина | Change Manager+Communications |
+| _(приклад)_ @ivan-petriv | Іван Петрів | Incident Manager |
