@@ -7,7 +7,7 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
-| 1 | lokidl|BOOMchik7,katherinak7 |stacy007009| iryna-rvv| 
+| 1 | katherinak7|BOOMchik7,lokidl |stacy007009| iryna-rvv| 
 | 2 | | | | |
 | 3 | | | | |
 | 4 | | | | |
