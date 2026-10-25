@@ -9,7 +9,7 @@
 |---|---|---|---|---|
 | 1 | yanderkachan9-bot | andr1qn, Maksym-coder | MaksymGD | andriiko111 |
 | 2 | andr1qn | yanderkachan9-bot, MaksymGD | andriiko111 | Maksym-coder |
-| 3 | MaksymGD | | | |
+| 3 | MaksymGD | | Maksym-coder | |
 | 4 | | | | |
 | 5 | | | | |
 | 6 | | | | |
