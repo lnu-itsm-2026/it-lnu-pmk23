@@ -14,7 +14,7 @@
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge | Communications |
 |---|---|---|---|---|---|
 | 1 | | ol3g4s | @xxhe3ripped | | @xxhe3ripped |
-| 2 | | | | | |
+| 2 | | |ol3g4s | |ol3g4s |
 | 3 | | | | | |
 | 4 | | | | | |
 | 5 | | | | | |
