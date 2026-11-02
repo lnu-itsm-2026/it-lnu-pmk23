@@ -8,9 +8,9 @@
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
 | 1 |orest3642|Nazark1|minagrm|rspdr66|
-| 2 | | | | |
-| 3 | | | | |
-| 4 | | | | |
+| 2 |orest3642|Nazark1|minagrm|rspdr66|
+| 3 |rspdr66|minagrm|Nazark1|orest3642|
+| 4 |rspdr66|minagrm|Nazark1|orest3642|
 | 5 | | | | |
 | 6 | | | | |
 | 7 | | | | |
