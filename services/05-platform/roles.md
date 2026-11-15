@@ -13,8 +13,8 @@
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge | Communications |
 |---|---|---|---|---|---|
-| 1 | | ol3g4s | xxhe3ripped | | xxhe3ripped |
-| 2 | | xxhe3ripped |ol3g4s | |ol3g4s |
+| 1 | sihebs | ol3g4s | xxhe3ripped | sihebs | xxhe3ripped |
+| 2 | sihebs | xxhe3ripped |ol3g4s | sihebs |ol3g4s |
 | 3 | | | | | |
 | 4 | | | | | |
 | 5 | | | | | |
@@ -30,3 +30,4 @@
 |---|---|---|
 | @xxhe3ripped | Блищик Катерина | Change Manager+Communications |
 |ol3g4s| Пилипчак олег | Incident Manager |
+| sihebs | Кулик Софія | Service Owner+Risk&Knowledge |
