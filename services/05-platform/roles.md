@@ -15,8 +15,8 @@
 |---|---|---|---|---|---|
 | 1 | sihebs | ol3g4s | xxhe3ripped | sihebs | xxhe3ripped |
 | 2 | sihebs | xxhe3ripped |ol3g4s | sihebs |ol3g4s |
-| 3 | | sihebs | | xxhe3ripped | xxhe3ripped |
-| 4 | xxhe3ripped | | | | sihebs |
+| 3 |Ol3g4s | Ol3g4s | sihebs| xxhe3ripped | xxhe3ripped |
+| 4 | xxhe3ripped | Ol3g4s | xxhe3ripped | Ol3g4s | sihebs |
 | 5 | | | | | |
 | 6 | | | | | |
 | 7 | | | | | |
