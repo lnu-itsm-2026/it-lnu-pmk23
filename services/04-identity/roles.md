@@ -10,7 +10,7 @@
 | 1 |orest3642|Nazark1|minagrm|rspdr66|-|
 | 2 |orest3642|Nazark1|minagrm|rspdr66|-|
 | 3 |minagrm|rspdr66|Nazark1|orest3642|-|
-| 4 |minagrm|rspdr66|Nazark1|orest3642|rspdr66|
+| 4 |minagrm|rspdr66|Nazark1|orest3642|Nazark1|
 | 5 | | | | |
 | 6 | | | | |
 | 7 | | | | |
