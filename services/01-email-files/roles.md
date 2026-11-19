@@ -8,7 +8,7 @@
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
 |---|---|---|---|---|
 | 1 | 15FoxyPirate15 | Markisha1337 | 15FoxyPirate15 | immortalityss |
-| 2 | | | | |
+| 2 | Markisha1337 | 15FoxyPirate15 | immortalityss | Markisha1337 |
 | 3 | | | | |
 | 4 | | | | |
 | 5 | | | | |
