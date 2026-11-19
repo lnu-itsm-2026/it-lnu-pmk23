@@ -6,7 +6,7 @@
 Якщо в команді троє — хтось тримає дві ролі, і подвоєння теж ротується.
 
 | Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |Comunications|
-|---|---|---|---|---|
+|---|---|---|---|---|---|
 | 1 |orest3642|Nazark1|minagrm|rspdr66|-|
 | 2 |orest3642|Nazark1|minagrm|rspdr66|-|
 | 3 |minagrm|rspdr66|Nazark1|orest3642|-|
