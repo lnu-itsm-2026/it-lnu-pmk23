@@ -5,16 +5,16 @@
 
 Якщо в команді троє — хтось тримає дві ролі, і подвоєння теж ротується.
 
-| Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge |
-|---|---|---|---|---|
-| 1 | 15FoxyPirate15 | Markisha1337 | 15FoxyPirate15 | immortalityss |
-| 2 | Markisha1337 | 15FoxyPirate15 | immortalityss | Markisha1337 |
-| 3 | immortalityss | immortalityss | Markisha1337 | 15FoxyPirate15 |
-| 4 | | | | |
-| 5 | | | | |
-| 6 | | | | |
-| 7 | | | | |
-| 8 | | | | |
+| Блок | Service Owner | Incident Manager | Change Manager | Risk & Knowledge | Communications |
+|---|---|---|---|---|---|
+| 1 | 15FoxyPirate15 | Markisha1337 | 15FoxyPirate15 | immortalityss | — |
+| 2 | Markisha1337 | 15FoxyPirate15 | immortalityss | Markisha1337 | — |
+| 3 | immortalityss | immortalityss | Markisha1337 | 15FoxyPirate15 | — |
+| 4 | 15FoxyPirate15 | Markisha1337 | 15FoxyPirate15 | immortalityss | Markisha1337 |
+| 5 | | | | | |
+| 6 | | | | | |
+| 7 | | | | | |
+| 8 | | | | | |
 
 ## Склад команди
 
