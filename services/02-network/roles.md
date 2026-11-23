@@ -11,7 +11,7 @@
 | 2 | andr1qn | yanderkachan9-bot, MaksymGD | andriiko111 | Maksym-coder | -
 | 3 | MaksymGD | andriiko111б, yanderkachan9-bot | Maksym-coder | andr1qn | -
 | 4 | Maksym-coder | MaksymGD | yanderkachan9-bot  | andriiko111 | andr1qn |
-| 5 | | | andr1qn | MaksymGD | |
+| 5 | | | andr1qn | MaksymGD | | yanderkachan9-bot
 | 6 | | | | | |
 | 7 | | | | | |
 | 8 | | | | | |
